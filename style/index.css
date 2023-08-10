@@ -1,0 +1,100 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background: url("https://cdn.pixabay.com/photo/2017/10/22/20/42/table-2879213_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containt{
+    margin-left: 13px;
+}
+.sidebar{
+    height: 550px;
+    width: 220px;
+    background-color: white;
+    box-shadow: inset;
+}
+.seperator{
+    width: 1.5em;
+    border-bottom: 3px solid #e3e3e3;
+    margin: auto;
+    
+}
+.sidebar-info{
+    overflow-y: scroll;
+    height: 290px;
+    overflow-x: hidden;
+}
+.list-item ul li{
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.more{
+    cursor: pointer;
+}
+.terms div,.terms+div{
+    font-size: 10px;
+    width: 500;
+    cursor: pointer;
+    margin: auto;
+}
+.search span i{
+    margin-top: 10px;
+    margin-left: -60px;
+}
+.pills-name{
+    margin-top: 50px;
+    position: absolute;
+    margin-left: -95px;
+    font: bold;
+
+}
+.rounded-pills:hover{
+    cursor: pointer;
+    
+}
+.grid-wrapper .card{
+    box-sizing: content-box;
+}
+.grid-wrapper{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+
+}
+.justforyou h2{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #2c2020f2;
+}
+#submit{
+    width:35px;
+    margin-left: 90px;
+    margin-top: 153px;
+}
+#query{
+    margin-top: 150px;
+    margin-left: 110px;
+}
+#results{
+    width: 110%;
+    height: auto;
+    background-color: blanchedalmond;
+}
+.showrecipe{
+    position: relative;
+}
+#title{
+    height: 70px;
+    width: 95%;
+}
+.likes{
+    width: 35px;
+    height: 35px;
+    margin-top: 35px;
+}
+.serve{
+    margin-left: 10px;
+
+}

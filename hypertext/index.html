@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../style/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../style/index.css" />
+    <title>Mytastyfood</title>
+  </head>
+  <body>
+    <div class="container row d-flex justify-content-between">
+      <!-- <div class="sidebar my-4 col-3">
+        <div class="logo justify-content-center d-flex">
+          <img
+            src="../images/1.png"
+            alt=""
+            height="100px"
+            width="100px"
+            class="my-3"
+          />
+        </div>
+        <div class="seperator"></div>
+        <div class="sidebar-info">
+          <div class="login row m-4">
+            <button type="button" class="btn btn-danger rounded-pill mx-2">
+              Sign Up/Log In
+            </button>
+          </div>
+          <div class="row">
+            <div class="col list-item">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">My Feed</li>
+                <li class="list-group-item">Articles</li>
+                <li class="list-group-item">Meal Planning Guides</li>
+                <li class="list-group-item">Meal Planner</li>
+                <li class="list-group-item">Pantry-Ready Recipe</li>
+                <li class="list-group-item">Browse</li>
+                <li class="list-group-item">Pro Recipe</li>
+                <li class="list-group-item">Guided Recipes</li>
+                <li class="list-group-item">Thanksgiving</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row more">
+            <div class="dots fs-2 text-center text-danger">...</div>
+            <div class="text text-center">MORE</div>
+          </div>
+        </div>
+        <div class="row terms my-2">
+          <div class="col-2 mx-3">Privacy</div>
+          <div class="col-2">Terms</div>
+          <div class="col">Interest-Based ADS</div>
+        </div>
+        <div class="row">
+          <div class="col">Do not sell my personal information</div>
+        </div>
+      </div> -->
+      <div class="containt col">
+        <!-- search engine -->
+        <div class="input-group mb-3 mt-4 row d-flex justify-content-center ">
+          <div class="col-8">
+            <input
+            type="text"
+            class="form-control  rounded-pill"
+            id="query"
+            placeholder="Search 2M+ Recipes"
+            aria-label="Example text with button addon"
+            aria-describedby="button-addon1"
+            />
+          </div>
+          <div class="col-1 search">
+            <button id="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+        
+    
+
+        <!-- view recipe -->
+        <div class="row text-center mt-5">
+          <div class="col">
+            <p>PERSONALIZE YOUR EXPERIENCE</p>
+          </div>
+        </div>
+        <div class="row text-center" >
+          <div class="col">
+            <h1>Show recipes of your favorite cuisines?</h1>
+          </div>
+        </div>
+        <div class="row text-center text-danger">
+          <div class="col">
+            <h3>Latest Meals</h3>
+          </div>
+        </div>
+        <div class="row grid-wrapper" id="results">
+        </div>
+      </div>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" id="information">
+    </div>
+  </div>
+</div>
+  </body>
+  <script src="../script/index.js"></script>
+</html>
